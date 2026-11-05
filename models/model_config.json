@@ -1,0 +1,50 @@
+
+{
+    "model_name": "MobileNetV2",
+    "model_version": "1.0.0",
+    "image_size": [
+        224,
+        224
+    ],
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "class_to_index": {
+        "cardboard": 0,
+        "glass": 1,
+        "metal": 2,
+        "paper": 3,
+        "plastic": 4,
+        "trash": 5
+    },
+    "preprocessing": "MobileNetV2 preprocess_input",
+    "batch_size": 8,
+    "epochs_requested": 5,
+    "random_seed": 42,
+    "training_class_counts": {
+        "cardboard": 282,
+        "glass": 350,
+        "metal": 286,
+        "paper": 416,
+        "plastic": 336,
+        "trash": 96
+    },
+    "confidence_threshold": 0.60,
+    "manual_review_enabled": true,
+    "evaluation": {
+        "test_image_count": 379,
+        "test_accuracy": 0.8179,
+        "validation_accuracy": 0.8232,
+        "macro_f1": 0.80
+    },
+    "threshold_analysis": {
+        "validation_auto_accuracy": 0.8875,
+        "validation_auto_coverage": 0.8443,
+        "validation_review_rate": 0.1557
+    }
+}

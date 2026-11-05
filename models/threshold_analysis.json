@@ -1,0 +1,36 @@
+{
+    "validation_image_count": 379,
+    "normal_validation_accuracy": 0.8232189973614775,
+    "threshold_results": [
+        {
+            "threshold": 0.4,
+            "auto_coverage": 0.9815303430079155,
+            "auto_accuracy": 0.8279569892473119,
+            "review_rate": 0.01846965699208447
+        },
+        {
+            "threshold": 0.5,
+            "auto_coverage": 0.941952506596306,
+            "auto_accuracy": 0.84593837535014,
+            "review_rate": 0.05804749340369397
+        },
+        {
+            "threshold": 0.6,
+            "auto_coverage": 0.8443271767810027,
+            "auto_accuracy": 0.8875,
+            "review_rate": 0.15567282321899734
+        },
+        {
+            "threshold": 0.7,
+            "auto_coverage": 0.7572559366754618,
+            "auto_accuracy": 0.8989547038327527,
+            "review_rate": 0.24274406332453824
+        },
+        {
+            "threshold": 0.8,
+            "auto_coverage": 0.6649076517150396,
+            "auto_accuracy": 0.9166666666666666,
+            "review_rate": 0.3350923482849604
+        }
+    ]
+}
